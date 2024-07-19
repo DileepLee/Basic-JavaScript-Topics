@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>reverse string</title>
+  </head>
+  <body>
+    <p id="phara"></p>
+    <script type="text/javascript">
+    let pharaEl = document.getElementById("phara");
+
+      function reversestring(str){
+
+        const strsplit = str.split("");
+
+        const strreverse = strsplit.reverse();
+
+        const strjoin = strreverse.join("");
+
+        return strjoin;
+
+    }
+
+    const string = prompt('Enter a string:');
+
+    const result = reversestring(string);
+
+    console.log(result);
+    document.write(result);
+
+
+
+
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,48 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+  </head>
+  <body>
+    <h1 ALIGN="CENTER";>LOGIN FORM</h1>
+      <div>
+      Username:
+      <input type="text" name="first" value="" id="first">
+      <br><br>
+      Password:
+      <input type="text" name="second" value="" id="second">
+      <br><br>
+      <button type="button" name="Login" onclick="validlogin()">Login</button>
+</div>
+
+      <script type="text/javascript">
+	  
+
+        function validlogin() {
+		
+	   let username = document.getElementById("first").value;
+       let password = document.getElementById("second").value;
+
+   
+        if(username != "Dileep")
+        {
+          window.alert("Enter valid username");
+        }
+        else if (password != "1234")
+        {
+            window.alert("Enter valid password");
+        }
+        else
+        {
+          document.write("Hello your Login is Sucsusfull");
+        }
+      }
+
+      </script>
+
+  </body>
+</html>

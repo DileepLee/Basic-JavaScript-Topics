@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>errorsin javascript.com</title>
+<script type="text/javascript">
+    //try - identify.the exception
+
+try {
+    document.write("before error line");
+    window.alerted("Hello");
+    document.write("after error line");
+}
+//catch
+
+catch(err){
+  window.alert("error is:"+err.message);
+}
+//throw
+
+//finally
+finally{
+  document.write("after error line");
+
+}
+document.write("after error line");
+</script>
+
+  </head>
+  <body>
+
+  </body>
+</html>
